@@ -1,0 +1,77 @@
+/* Ensure the entire page is fully white */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white !important; /* FULL WHITE BACKGROUND */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centering the content */
+.container {
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+}
+
+/* Title */
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+.input-box {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.generate-btn {
+  background-color: #007bff;
+}
+
+.generate-btn:hover {
+  background-color: #0056b3;
+}
+
+.download-btn {
+  background-color: #28a745;
+}
+
+.download-btn:hover {
+  background-color: #1e7e34;
+}
+
+/* QR Code Container */
+.qr-container {
+  margin-top: 20px;
+  padding: 15px;
+  display: inline-block;
+}
